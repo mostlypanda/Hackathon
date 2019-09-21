@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+    
+    body {
+  	font-family: 'Lato', sans-serif;
+  	font-weight: 400;
+  	font-size: 16px;
+  	line-height: 1.7;
+  	color: #eee;
+}
+
+.header {
+  	height: 100vh;
+  	background-image: 
+	  linear-gradient(to right bottom, 
+     rgba(218, 233, 233, 0.8),
+     rgba(218, 99, 20, 0.8)),
+     url('https://thumbs.dreamstime.com/b/isometric-vector-businessman-politician-megaphone-making-announcement-to-crowd-people-abstract-advertising-politic-148263574.jpg');
+  	
+	background-size: cover;
+  	background-position: top;
+  	position: relative;
+
+  	clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+}
+
+.brand-box {
+  	position: absolute;
+  	top: 40px;
+  	left: 40px;
+}
+
+.brand { font-size: 20px; }
+
+.text-box {
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	text-align: center;
+}
+
+.heading-primary {
+  	color: #fff;
+  	text-transform: uppercase;
+
+  	backface-visibility: hidden;
+  	margin-bottom: 30px;
+}
+
+.heading-primary-main {
+  	display: block;
+  	font-size: 26px;
+  	font-weight: 400;
+  	letter-spacing: 5px;
+}
+
+.heading-primary-sub {
+  	display: block;
+  	font-size: 18px;
+  	font-weight: 700;
+  	letter-spacing: 7.4px;
+}
+
+.btn:link,
+.btn:visited {
+  	text-transform: uppercase;
+  	text-decoration: none;
+  	padding: 10px 20px;
+  	display: inline-block;
+  	border-radius: 100px;
+  	transition: all .2s;
+  	position: relative;
+}
+
+.btn:hover {
+  	transform: translateY(-3px);
+  	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+  	transform: translateY(-1px);
+  	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white {
+  	background-color: #fff;
+  	color: #777;
+	font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+body {
+  background: #1e2e36 none repeat scroll top left;
+  color: #444;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  line-height: normal;
+}
+
+.ribbon-wrapper {
+  position: relative;
+  z-index: 1;
+  margin: 5% auto;
+}
+
+h1.post-title {
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+.ribbon {
+  font-size: 20px!important;
+  text-transform: uppercase;
+  width: 50%;
+  position: relative;
+  background: #f35b5b;
+  color: #fff;
+  text-align: center;
+  padding: 1em 2em;
+  margin: 2em auto 3em
+}
+
+.ribbon:after,
+.ribbon:before {
+  content: "";
+  position: absolute;
+  display: block;
+  bottom: -1em;
+  border: 1.5em solid #d74545;
+  z-index: -1
+}
+
+.ribbon:before {
+  left: -2em;
+  border-right-width: 1.5em;
+  border-left-color: transparent
+}
+
+.ribbon:after {
+  right: -2em;
+  border-left-width: 1.5em;
+  border-right-color: transparent
+}
+
+.ribbon .ribbon-inner:after,
+.ribbon .ribbon-inner:before {
+  content: "";
+  position: absolute;
+  display: block;
+  border-style: solid;
+  border-color: #b23232 transparent transparent;
+  bottom: -1em
+}
+
+.ribbon .ribbon-inner:before {
+  left: 0;
+  border-width: 1em 0 0 1em
+}
+
+.ribbon .ribbon-inner:after {
+  right: 0;
+  border-width: 1em 1em 0 0
+}
+
+#sa{
+    color: #f8f8f8;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+    </style>
+</head>
+<body>
+        <header class="header">
+                <div class="brand-box">
+                    <span class="brand">Welcome</span>
+                </div>
+                
+                <div class="text-box">
+                    <h1 class="heading-primary">
+                        <span class="heading-primary-main">Specially designed to help our students</span>
+                        <span class="heading-primary-sub">THey can get updated of each and every announcement</span>
+                    </h1>
+                    <a href="#" class="btn btn-white btn-animated">Your Profile</a>
+                    <a href="#" style="margin-left:2%;" class="btn btn-white btn-animated">Logout</a>
+                
+                </div>
+            </header>
+
+<div class="container">
+
+
+</div>
+
+
+            <div class="ribbon-wrapper">
+                    <h3 class="ribbon">
+                  <strong class="ribbon-inner">Hope you are happy with this..</strong>
+                  </h3>
+                  </div>
+</body>
+</html>
