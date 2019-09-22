@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+    
+    body {
+  	font-family: 'Lato', sans-serif;
+  	font-weight: 400;
+  	font-size: 16px;
+  	line-height: 1.7;
+  	color: #eee;
+}
+
+.header {
+  	height: 100vh;
+  	background-image: 
+	  linear-gradient(to right bottom, 
+     rgba(218, 233, 233, 0.8),
+     rgba(218, 99, 20, 0.8)),
+     url('https://thumbs.dreamstime.com/b/isometric-vector-businessman-politician-megaphone-making-announcement-to-crowd-people-abstract-advertising-politic-148263574.jpg');
+  	
+	background-size: cover;
+  	background-position: top;
+  	position: relative;
+
+  	clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+}
+
+.brand-box {
+  	position: absolute;
+  	top: 40px;
+  	left: 40px;
+}
+
+.brand { font-size: 20px; }
+
+.text-box {
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	text-align: center;
+}
+
+.heading-primary {
+  	color: #fff;
+  	text-transform: uppercase;
+
+  	backface-visibility: hidden;
+  	margin-bottom: 30px;
+}
+
+.heading-primary-main {
+  	display: block;
+  	font-size: 26px;
+  	font-weight: 400;
+  	letter-spacing: 5px;
+}
+
+.heading-primary-sub {
+  	display: block;
+  	font-size: 18px;
+  	font-weight: 700;
+  	letter-spacing: 7.4px;
+}
+
+.btn:link,
+.btn:visited {
+  	text-transform: uppercase;
+  	text-decoration: none;
+  	padding: 10px 20px;
+  	display: inline-block;
+  	border-radius: 100px;
+  	transition: all .2s;
+  	position: relative;
+}
+
+.btn:hover {
+  	transform: translateY(-3px);
+  	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+  	transform: translateY(-1px);
+  	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white {
+  	background-color: #fff;
+  	color: #777;
+	font-size: 14px;
+}
+
+
+#sar {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10%
+ 
+}
+
+#sar{padding: 10px 24px;}
+
+
+
+
+
+
+
+
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+body {
+  background: #1e2e36 none repeat scroll top left;
+  color: #444;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  line-height: normal;
+}
+
+.ribbon-wrapper {
+  position: relative;
+  z-index: 1;
+  margin: 5% auto;
+}
+
+h1.post-title {
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+.fileContainer {
+    overflow: hidden;
+    position: relative;
+}
+
+.fileContainer [type=file] {
+    cursor: inherit;
+    display: block;
+    font-size: 999px;
+    filter: alpha(opacity=0);
+    min-height: 100%;
+    min-width: 100%;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 0;
+}
+
+.ribbon {
+  font-size: 20px!important;
+  text-transform: uppercase;
+  width: 50%;
+  position: relative;
+  background: #f35b5b;
+  color: #fff;
+  text-align: center;
+  padding: 1em 2em;
+  margin: 2em auto 3em
+}
+
+.ribbon:after,
+.ribbon:before {
+  content: "";
+  position: absolute;
+  display: block;
+  bottom: -1em;
+  border: 1.5em solid #d74545;
+  z-index: -1
+}
+
+.ribbon:before {
+  left: -2em;
+  border-right-width: 1.5em;
+  border-left-color: transparent
+}
+
+.ribbon:after {
+  right: -2em;
+  border-left-width: 1.5em;
+  border-right-color: transparent
+}
+
+.ribbon .ribbon-inner:after,
+.ribbon .ribbon-inner:before {
+  content: "";
+  position: absolute;
+  display: block;
+  border-style: solid;
+  border-color: #b23232 transparent transparent;
+  bottom: -1em
+}
+
+.ribbon .ribbon-inner:before {
+  left: 0;
+  border-width: 1em 0 0 1em
+}
+
+.ribbon .ribbon-inner:after {
+  right: 0;
+  border-width: 1em 1em 0 0
+}
+
+#sa{
+    color: #f8f8f8;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+.fileUpload {
+  float: left;
+  position: relative;
+  overflow: hidden;
+  background-color:green;
+  color: white;
+  height: 60px;
+  width: 220px;
+  text-align: center;
+  border: 2px solid green;
+  border-radius: 20px;
+  box-shadow: 2px 2px 1px 1px rgba(0, 0, 0, 0.4);
+  -webkit-transition: prop 0.4s;
+  -moz-transition: prop 0.4s;
+  -ms-transition: prop 0.4s;
+  -o-transition: prop 0.4s;
+  transition: prop 0.4s;
+}
+
+.fileUpload:after {
+  content: "";
+  background: green;
+  display: block;
+  position: absolute;
+  opacity: 0;
+  transition: all 0.8s;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px!important;
+  margin-top: -120%;
+  font-size: 20px;
+  cursor: pointer;
+  filter: alpha(opacity=0);
+  height: 100%;
+  text-align: center;
+}
+
+.fileUpload:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+
+.fileUpload input.upload {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  height: 100%;
+  text-align: center;
+}
+
+.fileName {
+  margin: 2px 0 0 130px;
+  width: auto;
+}
+
+.updLabel {
+  line-height: 30px;
+  font-weight: bold;
+}
+
+#uploadFile {
+    padding: 10px;
+  border-radius: 50%;
+  width: 150px;
+  height: 40px;
+}
+
+
+
+input[type="file"]{
+
+    background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10%
+
+
+}
+
+
+
+
+
+
+    </style>
+
+    <script>
+    </script>
+</head>
+<body>
+        <header class="header">
+                <div class="brand-box">
+                    <span class="brand">Welcome</span>
+                </div>
+                
+                <div class="text-box">
+                    <h1 class="heading-primary">
+                        <span class="heading-primary-main">Specially designed to help our students</span></br>
+                        <span class="heading-primary-sub">THey can get updated of each and every announcement</span>
+                    </h1>
+                    <a href="/offprofile" class="btn btn-white btn-animated">Your Profile</a>
+                    <a href="/offlogout" style="margin-left:2%;" class="btn btn-white btn-animated">Logout</a>
+                
+                </div>
+            </header>
+
+<div><span style="text-align:center; color:blanchedalmond; font-family: cursive; font-size: 20px; margin-left: 10%;" >Please add details about upcoming each and every events and workshops as well as holidays and other important notices here</span>
+        <form enctype="multipart/form-data" method="POST" action='/data'>
+</br></br>
+<span style=" margin-left:20%; text-align:center; color:blanchedalmond; font-family: cursive; font-size: 20px; margin-left: 10%;" >Please upload your event poster or any pdf</span></br>
+<!--<input style="margin-left:35%; color: blanchedalmond; font-size: 20px; " type="file" id="uploadFile"></br>--></br>
+<!--<label class="fileContainer" style="margin-left:35%; color: blanchedalmond; font-size: 20px; ">
+        Click here to trigger the file uploader!
+        <input type="file" name='pic'>
+
+    </label>--> <input type='file'  style="margin-left:35%;" name='pics'></br>
+<span style=" margin-left:20%; text-align:center; color:blanchedalmond; font-family: cursive; font-size: 20px; margin-left: 10%;" >Enter the description of your announcement here</span></br>
+</br><textarea name='desc' style="margin-left:35%" rows="4" cols="50" placeholder="Enter description here.........">Enter your description here.......
+    </textarea></br></br>
+
+</br>
+<button  style="background-color: red; margin-left:39%;">Submit here</button>
+
+</form>
+            <div class="ribbon-wrapper" style="margin-top:5%;">
+                    <h3 class="ribbon">
+                  <strong class="ribbon-inner">Hope you are happy with this..</strong>
+                  </h3>
+                  </div>
+</body>
+</html>

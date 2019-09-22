@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>paytm mechant payment page</title>
+</head>
+<body>
+ <h1>redirect you to mechant </h1>
+ <form method="post" action=" https://securegw-stage.paytm.in/order/process" name="paytm">
+ <% for (name in resultData) { 
+    console.log(name); 
+    console.log(resultData[name] ); 
+%>
+    <input type="hidden" name='<%= name %>' value='<%= resultData[name] %>'>
+<%}%>
+
+    <input type="hidden" name='CHECKSUMHASH' value='<%= csh %>'>
+<script type="text/javascript">
+    document.paytm.submit();
+</script>
+</form>
+
+</body>
+</html>
